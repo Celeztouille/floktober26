@@ -60,7 +60,7 @@ body::before {
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
-    font-size: clamp(1.5rem, 1vw, 2rem);
+    font-size: 1.5rem;
     font-weight: bold;
     z-index: 20;
     pointer-events: none;
@@ -125,6 +125,7 @@ body::before {
 @media (max-width: 600px) {
 
     .title {
+        font-size: 1rem;
         margin-left: 2rem;
     }
 
