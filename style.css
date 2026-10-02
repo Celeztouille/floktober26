@@ -199,4 +199,8 @@ body::before {
         visibility: hidden; 
         max-width: 0;
     }
+
+    .nav-btn {
+        font-size: 1.1rem;
+    }
 }
